@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/public"
+  to = "https://wazo-plugin-trunk-atea.netlify.app/public/"
+  status = 200
+  force = true
+  headers = {X-From = "portal.wazo.io"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

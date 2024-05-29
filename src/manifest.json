@@ -1,0 +1,30 @@
+{
+    "manifestVersion": "0.1",
+    "version": "1.0.0",
+    "id": "fm-atea-plugin-trunk",
+    "packageName": "io.atea.portal.trunk-config",
+    "productType": "portal",
+    "name" : {
+      "short": "Plugin de Trunk Atea",
+      "full": "Plugin de configuration pour Trunk Atea"
+    },
+    "developer": {
+      "name": "FM"
+    },
+    "description": {
+      "short": "Plugin de configuration du trunk ATEA",
+      "full": "Plugin de configuration spécifique au trunking ATEA SIPROUTER"
+    },
+    "icons": {
+      "color": "https://avatars.githubusercontent.com/u/68688703?s=200&v=4"
+    },
+    "staticTabs": [
+      {
+        "entityId": "trunk-atea-config",
+        "context": ["pbxMenu"],
+        "name": "Trunk ATEA",
+        "parent": "common.layout.pbxMenu.callManagement",
+        "contentUrl": "./index.html"
+      }
+    ]
+  }

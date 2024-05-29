@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ATEA Trunk APP</title>
+    </head>
+    <body>
+        <h1>Hello!</h1>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="username" class="col-form-label">Identifiant</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" id="username" name="username" class="form-control username" autocomplete="no" aria-describedby="usernameHelp">
+            </div>
+            <div class="col-auto">
+              <span id="usernameHelp" class="form-text">
+                Identifiant du trunk.
+              </span>
+            </div>
+        </div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="password" class="col-form-label">Password</label>
+            </div>
+            <div class="col-auto">
+              <input type="password" id="password" name="password" class="form-control password" autocomplete="no" aria-describedby="passwordHelpInline">
+            </div>
+            <div class="col-auto">
+              <span id="passwordHelpInline" class="form-text">
+                Must be 8-20 characters long.
+              </span>
+            </div>
+          </div>
+        <button type="submit" class="btn btn-primary wizard_save" id="wizard_save" name="wizard_save">SAVE</button>
+        <div class="copy"></div>
+    </body>
+    
+</html>
